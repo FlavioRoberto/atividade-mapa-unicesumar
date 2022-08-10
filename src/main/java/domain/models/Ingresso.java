@@ -6,7 +6,7 @@ public abstract class Ingresso {
     private final String tipo;
     private final String nome;
     private final String cpf;
-    private Evento evento;
+    private final Evento evento;
 
     public Ingresso(String tipo, String nome, String cpf, Evento evento) {
         this.tipo = tipo;
